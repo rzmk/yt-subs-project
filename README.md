@@ -18,4 +18,4 @@ A website showcasing the ability to overlay custom subtitles for multiple YouTub
 
 This was helpful in understanding how to work with the [Video.js](https://videojs.com/) player and adding my own custom subtitles.
 
-There is a possible issue where adding more caption entries may result in a single row of selectable videos to become too crowded/long, so this could be fixed. Though I don't plan to as this isn't a production application and there are web applications such as [Captionfy](https://www.captionfy.com/) that are more fully featured.
+There is a possible issue where adding more caption entries may result in a single row of selectable videos to become too crowded/long, so this could be fixed. Though I don't plan to as this isn't a production application and there are web applications such as [Amara.org](https://amara.org/) and [Captionfy](https://www.captionfy.com/) that are more fully featured.
