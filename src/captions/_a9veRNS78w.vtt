@@ -1,0 +1,371 @@
+WEBVTT
+
+1
+00:00:00.900 --> 00:00:04.800
+We're getting ready to move on
+from the topic of functions.
+
+2
+00:00:04.800 --> 00:00:08.233
+But before we do, let's just make sure
+that you're familiar with these
+
+3
+00:00:08.233 --> 00:00:13.633
+very useful functions that you will see
+throughout your mathematical study.
+
+4
+00:00:13.733 --> 00:00:17.066
+So I want to talk to you first
+about the floor and ceiling functions.
+
+5
+00:00:17.100 --> 00:00:18.633
+Again, I am quite certain
+
+6
+00:00:18.633 --> 00:00:22.266
+you've probably seen this before, but
+if not, they're pretty straightforward.
+
+7
+00:00:22.766 --> 00:00:26.633
+The floor function
+essentially tells us to round down
+
+8
+00:00:27.000 --> 00:00:29.833
+to the largest integer
+less than or equal to x.
+
+9
+00:00:30.133 --> 00:00:31.300
+And it's easy to remember
+
+10
+00:00:31.300 --> 00:00:35.166
+this is the floor function because
+our brackets essentially have a floor.
+
+11
+00:00:35.966 --> 00:00:39.566
+And the ceiling function is similar
+but asks us to round up
+
+12
+00:00:40.033 --> 00:00:44.433
+to the nearest integer greater
+than or equal to x.
+
+13
+00:00:45.033 --> 00:00:46.800
+So let's take a look at an example.
+
+14
+00:00:46.800 --> 00:00:51.366
+I've got 2.2, and if I'm thinking
+about 2.2 on a number line,
+
+15
+00:00:52.333 --> 00:00:53.500
+then I'm thinking about
+
+16
+00:00:53.500 --> 00:00:57.066
+2, and then 3, and 2.2
+
+17
+00:00:57.533 --> 00:00:59.533
+is right around somewhere in there.
+
+18
+00:01:01.000 --> 00:01:04.800
+And if I'm rounding or
+if I'm using the ceiling function,
+
+19
+00:01:05.466 --> 00:01:10.200
+the ceiling function says
+round up to the next integer
+
+20
+00:01:10.933 --> 00:01:14.000
+and the floor function says round
+
+21
+00:01:14.000 --> 00:01:17.833
+down to the next integer.
+
+22
+00:01:17.966 --> 00:01:21.633
+Same thing happens for my -3.7.
+
+23
+00:01:22.100 --> 00:01:25.033
+But just be careful how
+you put these numbers on the number line.
+
+24
+00:01:25.600 --> 00:01:27.500
+Remember, 0 is over here somewhere.
+
+25
+00:01:27.500 --> 00:01:28.733
+This would be -3,
+
+26
+00:01:28.733 --> 00:01:33.866
+this would be -4, and -3.7 somewhere in here.
+
+27
+00:01:34.633 --> 00:01:36.700
+And then if I'm rounding up
+
+28
+00:01:37.266 --> 00:01:40.166
+for my ceiling function,
+I end up at -3.
+
+29
+00:01:40.500 --> 00:01:44.533
+If I'm rounding down to my floor function,
+I end up at -4.
+
+30
+00:01:45.166 --> 00:01:47.633
+So just be very careful
+with your negatives.
+
+31
+00:01:48.966 --> 00:01:50.166
+And I am certain,
+
+32
+00:01:50.166 --> 00:01:53.300
+absolutely certain that you have
+had the factorial function before.
+
+33
+00:01:53.766 --> 00:01:58.400
+Factorial function
+is essentially denoted by f(n) = n!
+
+34
+00:01:58.400 --> 00:02:02.400
+That's the exclamation point,
+which means factorial.
+
+35
+00:02:02.900 --> 00:02:06.866
+And it is the product of the first
+n positive integers
+
+36
+00:02:06.966 --> 00:02:09.233
+when n is a non-negative integer.
+
+37
+00:02:09.833 --> 00:02:12.633
+So I give you an f(n) here
+
+38
+00:02:12.633 --> 00:02:15.200
+but let's say f(4).
+
+39
+00:02:15.200 --> 00:02:19.033
+I would take
+4 times 3 times 2 times 1.
+
+40
+00:02:19.033 --> 00:02:22.366
+That would be my factorial function.
+
+41
+00:02:22.366 --> 00:02:24.300
+4 times 3 times 2 times 1.
+
+42
+00:02:24.300 --> 00:02:27.700
+So again,
+symbolically, it's n, n - 1,
+
+43
+00:02:27.700 --> 00:02:31.600
+n - 2, all the way down
+until you get to 1.
+
+44
+00:02:32.700 --> 00:02:35.266
+Stirling's formula is fantastic.
+
+45
+00:02:36.033 --> 00:02:39.366
+We're not going to use it a ton right now,
+but this is a way
+
+46
+00:02:39.666 --> 00:02:44.100
+because that factorial function
+gets very large very quickly.
+
+47
+00:02:45.000 --> 00:02:49.100
+This is an approximation that we can find
+
+48
+00:02:49.400 --> 00:02:52.400
+of the product of the numbers
+
+49
+00:02:52.833 --> 00:02:54.966
+of n!.
+
+50
+00:02:55.500 --> 00:02:58.100
+Here's just one more
+example for you to try.
+
+51
+00:02:59.133 --> 00:03:03.500
+Our function is the floor function
+of x squared divided by two and we're
+
+52
+00:03:03.500 --> 00:03:07.800
+trying to find f(S) for the set of S,
+
+53
+00:03:07.800 --> 00:03:10.500
+which includes 0, 1, 2, and 3.
+
+54
+00:03:10.833 --> 00:03:13.466
+So if you'd like, go ahead and press pause
+and try it yourself
+
+55
+00:03:13.500 --> 00:03:15.400
+before I go through the answer.
+
+56
+00:03:15.400 --> 00:03:18.000
+Otherwise, we're going to get started.
+
+57
+00:03:18.000 --> 00:03:21.000
+So if I'm finding f(0),
+
+58
+00:03:22.266 --> 00:03:26.333
+that tells me 0 squared
+divided by 2 and the floor
+
+59
+00:03:26.333 --> 00:03:30.333
+function of that 0 squared is 0
+divided by 2 is 0.
+
+60
+00:03:30.900 --> 00:03:34.533
+And the floor of 0 would
+of course be 0.
+
+61
+00:03:35.033 --> 00:03:36.800
+If I'm looking at f(1),
+
+62
+00:03:38.000 --> 00:03:39.900
+f(1) would be 1
+
+63
+00:03:39.900 --> 00:03:43.300
+squared over 2 and the floor function
+
+64
+00:03:44.166 --> 00:03:45.566
+1 squared is 1.
+
+65
+00:03:46.500 --> 00:03:50.466
+1 divided by 2,
+that just gives me one half.
+
+66
+00:03:50.466 --> 00:03:52.766
+So what is the floor function of one half?
+
+67
+00:03:53.533 --> 00:03:57.000
+That is also 0.
+
+68
+00:03:57.000 --> 00:03:59.633
+Let's do f(2).
+
+69
+00:03:59.633 --> 00:04:02.800
+f(2) is the floor function
+of 2 squared
+
+70
+00:04:04.133 --> 00:04:05.500
+over 2.
+
+71
+00:04:05.833 --> 00:04:10.000
+Oops, floor function
+of 2 squared over 2.
+
+72
+00:04:10.000 --> 00:04:14.500
+Which is...
+2 squared is 4, divided by 2
+
+73
+00:04:15.200 --> 00:04:18.300
+And the floor function of 2
+of course gives me 2.
+
+74
+00:04:19.666 --> 00:04:21.733
+And my last one, f(3)
+
+75
+00:04:22.666 --> 00:04:26.800
+tells me the floor of 3
+squared over 2,
+
+76
+00:04:26.800 --> 00:04:29.766
+which is the floor of 9 over 2.
+
+77
+00:04:30.600 --> 00:04:32.800
+And the floor of 9 over 2,
+which is basically
+
+78
+00:04:32.800 --> 00:04:35.733
+4.5 is 4.
+
+79
+00:04:36.333 --> 00:04:40.933
+So these would
+be my solutions: 0, 0, 2, 4.
+
+80
+00:04:42.700 --> 00:04:43.366
+Up next,
+
+81
+00:04:43.366 --> 00:04:47.166
+we are going to switch gears
+and talk a little bit about sequences.
+
+82
+00:04:47.166 --> 00:04:49.666
+So it's an introduction to sequences.
+

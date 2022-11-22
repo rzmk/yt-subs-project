@@ -1,0 +1,134 @@
+WEBVTT
+
+1
+00:00:00.120 --> 00:00:04.404
+Let us talk about priori analysis
+and posteriori testing.
+
+2
+00:00:04.404 --> 00:00:09.929
+These are the two terms that are used
+for algorithms and programs.
+
+3
+00:00:09.929 --> 00:00:13.733
+Priori analysis is done over the algorithm
+so priori analysis means
+
+4
+00:00:13.733 --> 00:00:17.937
+we will do the analysis of an algorithm
+by studying it in greater detail,
+
+5
+00:00:18.218 --> 00:00:23.343
+knowing how it is working,
+and we get some results.
+
+6
+00:00:23.343 --> 00:00:24.424
+The result of analysis.
+
+7
+00:00:24.424 --> 00:00:28.628
+What is that? We will find out the time
+and the space consumed by an algorithm.
+
+8
+00:00:29.629 --> 00:00:32.192
+The result of analysis.
+
+9
+00:00:32.192 --> 00:00:34.554
+And testing is done on the program.
+
+10
+00:00:34.554 --> 00:00:38.358
+So we run and execute the program
+and check it so we will know the
+
+11
+00:00:38.358 --> 00:00:41.921
+watch time it is taking: how much, how
+many seconds, milliseconds it is taking
+
+12
+00:00:42.402 --> 00:00:45.605
+and also the amount of memory it is
+consuming
+
+13
+00:00:45.845 --> 00:00:49.649
+in terms of bytes.
+
+14
+00:00:49.649 --> 00:00:52.652
+So this is priori analysis done on
+algorithms
+
+15
+00:00:53.012 --> 00:00:55.895
+and posteriori testing
+is done on programs.
+
+16
+00:00:57.337 --> 00:01:00.019
+Now when priori analysis is done
+over an algorithm
+
+17
+00:01:00.019 --> 00:01:04.344
+we know well that algorithms are not
+written in a particular language.
+
+18
+00:01:04.464 --> 00:01:07.707
+So they are language independent
+and also they are
+
+19
+00:01:07.947 --> 00:01:09.749
+hardware independent.
+
+20
+00:01:09.749 --> 00:01:13.273
+They are not meant for a particular
+hardware. But if it is a program
+
+21
+00:01:13.513 --> 00:01:16.636
+we write a program that is hardware
+
+22
+00:01:16.636 --> 00:01:19.439
+specific, as well as language specific,
+
+23
+00:01:20.039 --> 00:01:23.963
+and as well as operating system
+specific, and environment specific also.
+
+24
+00:01:24.484 --> 00:01:29.008
+So they are dependent on the hardware
+as well as the programming language used.
+
+25
+00:01:30.610 --> 00:01:32.612
+And here the result of this one is
+
+26
+00:01:32.612 --> 00:01:35.855
+how we get the time and the space.
+We don't get
+
+27
+00:01:35.895 --> 00:01:40.140
+watch time, 3 minutes, 10 minutes, 5
+seconds or milliseconds.
+
+28
+00:01:40.180 --> 00:01:46.065
+No, we will get the time function
+and we get the space function.
+

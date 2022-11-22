@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Custom YouTube Subtitles
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website showcasing the ability to overlay custom subtitles for multiple YouTube videos using `.vtt` files.
 
-## Available Scripts
+![Demo](demo.gif)
 
-In the project directory, you can run:
+## How to Use
 
-### `npm start`
+1. Create captions for a YouTube video and save them as a `.vtt` file.
+   1. One method is using online caption-making software or Adobe Premiere Pro, exporting as a `.srt` file and then converting it to a `.vtt` file using an online conversion tool.
+2. Rename the `.vtt` file to the video ID of the YouTube video.
+   1. For example if the YouTube video you're captioning is at [https://www.youtube.com/watch?v=-JTq1BFBwmo](https://www.youtube.com/watch?v=-JTq1BFBwmo) then the video ID is after the `=` symbol as `-JTq1BFBwmo`.
+3. Add the `.vtt` file to `/src/captions/` and add the video ID to the array in `captions.js`.
+4. Build the React application and deploy it.
+   1. You can use tools like [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/) to automate this process.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Conclusions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This was helpful in understanding how to work with the [Video.js](https://videojs.com/) player and adding my own custom subtitles.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+There is a possible issue where adding more caption entries may result in a single row of selectable videos to become too crowded/long, so this could be fixed. Though I don't plan to as this isn't a production application and there are web applications such as [Captionfy](https://www.captionfy.com/) that are more fully featured.
